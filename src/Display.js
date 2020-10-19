@@ -6,11 +6,11 @@ const Display = (props) => {
 
 	const loaded = (
 		<div style={{ textAlign: 'center' }}>
-			{dogs.map((dog) => (
-				<article>
-					<img src={dog.img} />
+			{dogs.map((dog, index) => (
+				<article key={index}>
+					<img src={dog.img} alt={dog.name} />
 					<h1>{dog.name}</h1>
-					<h3>{dog.age}</h3>
+					<h3>Age: {dog.age}</h3>
 				</article>
 			))}
 		</div>
