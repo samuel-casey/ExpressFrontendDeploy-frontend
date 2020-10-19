@@ -41,4 +41,25 @@ img {
   width: 200px;
   height: 200px;
   object-fit: cover;
+  box-shadow: 1px 1px 2px 2px darkgrey;
+  margin: 1rem;
+}
+
+h3 {
+  color: green;
+}
+
+button {
+  margin: 1rem !important;
+  border-radius: 5px !important;
+  border: none !important;
+  box-shadow: 1px 1px 2px 2px darkgrey;
+}
+
+button.delete {
+  background-color: darkred
+}
+
+button.edit {
+  background-color: darkgreen
 }
