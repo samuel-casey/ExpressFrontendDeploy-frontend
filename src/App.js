@@ -29,7 +29,6 @@ function App() {
 
 	// load dogs on page load
 	useEffect(() => {
-		console.log(TEST);
 		getDogs();
 	}, []);
 
