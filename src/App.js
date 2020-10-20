@@ -4,7 +4,7 @@ import { Route, Link, Switch } from 'react-router-dom';
 import Display from './Display';
 import Form from './Form';
 
-const prod = false;
+const prod = true;
 
 function App() {
 	const dogsAPIURL = prod
