@@ -28,6 +28,7 @@ function App() {
 			});
 	};
 
+	// load dogs on page load
 	useEffect(() => {
 		getDogs();
 	}, []);
