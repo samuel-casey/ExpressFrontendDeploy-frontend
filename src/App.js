@@ -4,8 +4,12 @@ import { Route, Link, Switch } from 'react-router-dom';
 import Display from './Display';
 import Form from './Form';
 
+const prod = false;
+
 function App() {
-	const dogsAPIURL = 'http://localhost:5555';
+	const dogsAPIURL = prod
+		? 'https://dogsapibackend.herokuapp.com'
+		: 'http://localhost:5555';
 	const [dogs, setDogs] = useState([]);
 
 	const emptyDog = {

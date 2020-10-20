@@ -11,7 +11,6 @@ const Display = (props) => {
 					<img src={dog.img} alt={dog.name} />
 					<h1>{dog.name}</h1>
 					<h3>Age: {dog.age}</h3>
-					<p>{dog._id}</p>
 					<button
 						className='edit'
 						onClick={() => {
