@@ -1,14 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import { Route, Link, Switch } from 'react-router-dom';
-import dotenv from 'dotenv';
 import Display from './Display';
 import Form from './Form';
-
-dotenv.config();
-
-const TEST = process.env.TEST;
-
 const prod = true;
 
 function App() {
